@@ -1,16 +1,17 @@
-# Home Assistant Windows Portable (HassWP)
+# Home Assistant Windows Portable (HassWP) CTM FORKED
 
-[![Donate](https://img.shields.io/badge/donate-Coffee-yellow.svg)](https://www.buymeacoffee.com/AlexxIT)
-[![Donate](https://img.shields.io/badge/donate-Yandex-red.svg)](https://money.yandex.ru/to/41001428278477)
+This forked fixes the TIMEZONE issue faced on certain windows as well as upgraded to version 2022.2.9. **If you face any issue in this forked please use AlexxIT version as its is more stable**
 
 Portable version of Home Assistant for Windows.
 
-Minimum requirements: **Windows 8+ 64-bit**. *If you need Windows 7 or 32-bit support - use [old version](https://github.com/AlexxIT/HassWP/releases/tag/v2021.12.10).*
+Minimum requirements: **Windows 8+ 64-bit**. *If you need Windows 7 or 32-bit support - use [old version] from AlexxIT (https://github.com/AlexxIT/HassWP/releases/tag/v2021.12.10).*
+TESTED on: **Windows Server 2016 Standard**
+
 
 Preinstalled:
 
 - [WinPython](https://winpython.github.io/) v3.9.10 64-bit
-- [Home Assistant](https://www.home-assistant.io/) v2022.2.3
+- [Home Assistant](https://www.home-assistant.io/) v2022.2.9
 - [HACS](https://hacs.xyz/) v1.22.0
 - [SonoffLAN](https://github.com/AlexxIT/SonoffLAN) v2.4.6
 - [XiaomiGateway3](https://github.com/AlexxIT/XiaomiGateway3) v1.6.5
@@ -22,7 +23,7 @@ Preinstalled:
 
 # HOWTO
 
-1. Download [HassWP.zip](https://github.com/AlexxIT/HassWP/releases/latest)
+1. Download [HassWP.zip](https://github.com/ctmaqil/HassWP/releases/latest)
 2. Unpack
 3. Run
 
@@ -44,10 +45,6 @@ If you really needs Hass.io addons on Windows - use [virtualization](https://www
 You can transfer your configuration to another Hass installation at any time. In another HassWP, venv, docker, hass.io, etc. Windows or Linux, it doesn't matter. Just move the contents of the `config` folder to a new location. Remember about `config/.storage` folder, it is also important. The `config/deps` folder may not be moved, but if you do, it's not a problem.
 
 Before any movement - stop the old and new Home Assistant!
-
-# Video Demo
-
-[![Home Assistant Windows Portable (HassWP)](https://img.youtube.com/vi/GFw3J3Jbuas/mqdefault.jpg)](https://www.youtube.com/watch?v=GFw3J3Jbuas)
 
 # Problems
 
