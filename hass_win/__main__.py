@@ -72,7 +72,7 @@ def wrap_setup(func):
 
 # fix Windows depended core bugs
 __main__.validate_os = lambda: None
-dt.get_time_zone = lambda _: dt.DEFAULT_TIME_ZONE
+# dt.get_time_zone = lambda _: dt.DEFAULT_TIME_ZONE //This is the line that is causing the timezone issues.
 os.fchmod = lambda *args: None
 signal.async_register_signal_handling = lambda *args: None
 
