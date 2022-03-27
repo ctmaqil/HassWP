@@ -1,6 +1,6 @@
 # Home Assistant Windows Portable (HassWP) CTM FORKED
 
-This forked fixes the TIMEZONE issue faced on certain windows as well as upgraded to version 2022.2.9. **If you face any issue in this forked please use AlexxIT version as its is more stable**
+This forked fixes the TIMEZONE issue faced on certain windows. **If you face any issue in this forked please use AlexxIT version as its is more stable**
 
 Portable version of Home Assistant for Windows.
 
@@ -17,20 +17,20 @@ Preinstalled:
 - [XiaomiGateway3](https://github.com/AlexxIT/XiaomiGateway3) v1.6.5
 - [YandexStation](https://github.com/AlexxIT/YandexStation) v3.8.0
 - [StartTime](https://github.com/AlexxIT/StartTime) v1.1.6
-- [NotePad++](https://notepad-plus-plus.org/) v7.8.5 32bit
+
 
 **Attention:** Direct works in Windows is not tested by the core developers of Home Assistant. So some components/integrations may not work at all.
 
-# HOWTO
+# HOW TO USE
 
-1. Download [HassWP.zip](https://github.com/ctmaqil/HassWP/releases/latest)
-2. Unpack
-3. Run
+1. Download [CTMHomeAssistantXXXX.rar](https://github.com/ctmaqil/HassWP/releases/latest)
+2. Unpack in a folder
+3. Run hass.cmd
+4. Press any key to start.
 
 Useful files:
 
 - `hass.cmd` - run Home Assistant and default Browser
-- `notepad.cmd` - run NotePad with `configuration.yaml`
 - `web.url` - open default Browser with http://localhost:8123/
 - `config/reset.cmd` - reset Home Assistant but don't touch config files
 
