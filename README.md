@@ -23,7 +23,7 @@ Preinstalled:
 
 # HOW TO USE
 
-1. Download [CTMHomeAssistantXXXX.rar](https://github.com/ctmaqil/HassWP/releases/latest)
+1. Download [CTMHomeAssistant2022-3-7.rar](https://github.com/ctmaqil/HassWP/releases/latest)
 2. Unpack in a folder
 3. Run hass.cmd
 4. Press any key to start.
