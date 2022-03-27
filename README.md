@@ -57,3 +57,5 @@ Before any movement - stop the old and new Home Assistant!
    ```
    
    Install Windows update: **KB2533623**.
+   
+2. Radio Browser does not work as it is broken in this release. I have not been able to fix this issue hence we have to wait for AlexxIT to release an update!
