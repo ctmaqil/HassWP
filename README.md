@@ -11,7 +11,7 @@ TESTED on: **Windows Server 2016 Standard**
 Preinstalled:
 
 - [WinPython](https://winpython.github.io/) v3.9.10 64-bit
-- [Home Assistant](https://www.home-assistant.io/) v2022.2.9
+- [Home Assistant](https://www.home-assistant.io/) v2022.5.1
 - [HACS](https://hacs.xyz/) v1.22.0
 - [SonoffLAN](https://github.com/AlexxIT/SonoffLAN) v2.4.6
 - [XiaomiGateway3](https://github.com/AlexxIT/XiaomiGateway3) v1.6.5
@@ -23,7 +23,7 @@ Preinstalled:
 
 # HOW TO USE
 
-1. Download [CTMHomeAssistant2022-3-7.rar](https://github.com/ctmaqil/HassWP/releases/latest)
+1. Download [CTMHomeAssistant2022-5-6.rar](https://github.com/ctmaqil/HassWP/releases/latest)
 2. Unpack in a folder
 3. Run hass.cmd
 4. Press any key to start.
