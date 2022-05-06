@@ -5,7 +5,7 @@ Version 1:
 
 - Windows 10 x64 (19044.1466)
 - Python 3.9.10 x64
-- Home Assistant 2022.2.0 (default_config)
+- Home Assistant 2022.5.1 (default_config)
 
 Version 2:
 
