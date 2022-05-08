@@ -1,17 +1,13 @@
 """
 Run Home Assistant natively in Windows. Tested with:
 
-Version 1:
+CTM Version:
 
 - Windows 10 x64 (19044.1466)
 - Python 3.9.10 x64
 - Home Assistant 2022.5.1 (default_config)
 
-Version 2:
 
-- Windows 7 x64
-- WinPython v3.8.9 x32
-- Home Assistant 2021.12.10 (default_config)
 """
 import os
 import subprocess
