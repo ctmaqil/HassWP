@@ -40,6 +40,12 @@ HassWP **don't have and can't have supervisor** and any Hass.io addons. Supervis
 
 If you really needs Hass.io addons on Windows - use [virtualization](https://www.home-assistant.io/installation/windows).
 
+# Cameras
+
+Latest HassWP supports cameras stream. For snapshot and recording use relative path from your config folder - media\snapshot.jpeg or www\video.mp4.
+
+Generic camera and WebRTC integrations do not need ffmpeg in your system. But it you want use FFmpeg integration - download ffmpeg manually and put ffmpeg.exe (80-120 MB) to your config folder.
+
 # Move config
 
 You can transfer your configuration to another Hass installation at any time. In another HassWP, venv, docker, hass.io, etc. Windows or Linux, it doesn't matter. Just move the contents of the `config` folder to a new location. Remember about `config/.storage` folder, it is also important. The `config/deps` folder may not be moved, but if you do, it's not a problem.
