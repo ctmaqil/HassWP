@@ -1,5 +1,6 @@
 # Home Assistant Windows Portable (HassWP) CTM FORKED
 
+# Update have not yet compiled pls use alex ver for latest
 This forked fixes the TIMEZONE issue faced on certain windows. **If you face any issue in this forked please use AlexxIT version as its is more stable**
 
 Portable version of Home Assistant for Windows.
